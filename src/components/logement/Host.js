@@ -33,9 +33,8 @@ margin-left: 10px;
 function Host(props) {
     return (
       <>
-        <HostName className="nom-proprietaire">{props.name}</HostName>
+        <HostName>{props.name}</HostName>
         <Img
-          className="photo-proprietaire"
           src={props.picture}
           alt="Propriétaire"
         />

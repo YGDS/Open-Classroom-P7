@@ -161,31 +161,31 @@ const LogementDisplay = () => {
             <StyledContainer>
                 <Carrousel slides={Logement?.pictures}> </Carrousel>
                 <Section>
-                  <Profil className="description">
-                    <LeftSide className="left side">
-                      <Title className="title">
+                  <Profil>
+                    <LeftSide>
+                      <Title>
                         <TitleSpan>
                             {Logement?.title}
                         </TitleSpan>
-                        <span className="endroit-logement">
+                        <span>
                           {Logement?.location}
                         </span>
                       </Title>
-                      <StyledTagList className="tag">
+                      <StyledTagList>
                         {tagsList}
                       </StyledTagList>
                     </LeftSide>
-                    <RightSide className="rightside">
-                      <HostName className="description-info__proprietaire__nom-prop">
+                    <RightSide>
+                      <HostName>
                           <Host name={Logement?.host.name} picture={Logement?.host.picture}/>
                       </HostName>
-                      <Rating className="rating">
+                      <Rating>
                         <Rate score={Logement.rating} />
                       </Rating>
                     </RightSide>
                   </Profil>
                 </Section>
-                <Description className="description">
+                <Description>
                   <CollapseDescLeft>
                     <Collapse title="Description" content={Logement?.description} />
                   </CollapseDescLeft>

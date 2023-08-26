@@ -4,7 +4,7 @@ import styled from "styled-components";
 const TagsContainer = styled.div`
 margin-right: 10px;
 text-align: center;
-
+position: relative;
 margin-bottom: 5px;
 width: 84px;
 height: 18px;
@@ -35,8 +35,8 @@ line-height: 142.6%;
 
 function Tags({ nom }) {
   return (
-    <TagsContainer className="tag-container">
-      <TagSpan className="tag-container__button">{nom}</TagSpan>
+    <TagsContainer>
+      <TagSpan>{nom}</TagSpan>
     </TagsContainer>
   );
 }

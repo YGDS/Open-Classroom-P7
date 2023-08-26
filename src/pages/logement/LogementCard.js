@@ -5,7 +5,7 @@ import LogementDisplay from "../../components/logement/LogementCard";
 
 const LogementCard = () => {
   return (
-    <div className="logement">
+    <div>
       <Header />
       <main>
         <LogementDisplay />

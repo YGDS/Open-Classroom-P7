@@ -6,7 +6,7 @@ import Header from "../../components/header/Header";
 const NoPage = () => {
   return (
     <>
-      <div className="NoPage">
+      <div>
       <Header />
         <main>
           <ErrorPage />

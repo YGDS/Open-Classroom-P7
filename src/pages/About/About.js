@@ -27,7 +27,7 @@ const StyledDrop = styled.div`
 
 const About = () => {
   return (
-    <div className="about">
+    <div>
       <Header />
       <main>
         <Banner image={ImgBanner} />
