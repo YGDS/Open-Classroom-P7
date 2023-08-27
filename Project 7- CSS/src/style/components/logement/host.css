@@ -1,0 +1,32 @@
+.HostName {
+    height: 33px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%;
+    margin-right: 5px;
+    text-align: right;
+    width: 50px;
+    color: #FF6060;
+
+    @media screen and (min-width: 375px){
+      margin-right: 10px;
+      width: 84px;
+      padding-top: 6px;
+      font-size: 18px;
+    }
+}
+
+.HostPicture {
+width: 32px;
+height: 32px;
+flex-shrink: 0;
+border-radius: 90px;
+margin-left: 10px;
+@media screen and (min-width: 375px){
+  width: 64px;
+  height: 64px;
+}
+}

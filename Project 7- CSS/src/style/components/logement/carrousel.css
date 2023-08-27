@@ -1,0 +1,92 @@
+.CarrouselContainer {
+    display: flex;
+  position: relative;
+  width: 93%;
+  height: 255px;
+  margin: 2% 100px 0 6%;
+  overflow: hidden;
+  @media screen and (min-width: 375px) {
+    height: 415px;
+  }
+}
+
+.Carrousel_picture {
+    object-fit: cover;
+    position: absolute;
+    width: 93%;
+    height: 255px;
+    mix-blend-mode: normal;
+    border-radius: 10px;
+    @media screen and (min-width: 375px) {
+      border-radius: 15px;
+      height: 415px;
+    }
+}
+
+.Carrousel_slider {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border-radius: 10px;
+  transition: opacity ease-in-out 0.6s;
+
+  @media screen and (min-width: 375px) {
+    border-radius: 15px;
+  }
+}
+
+.LeftArrow {
+  display: flex;
+  position: absolute;
+  top: 42%;
+  left: 2%;
+  height: 20px;
+  width: 12px;
+  z-index: 10;
+  cursor: pointer;
+  color: red;
+
+  @media screen and (min-width: 375px) {
+    width: 47px;
+    height: 79px;
+    top: 42%;
+  }
+}
+
+.RightArrow {
+  display: flex;
+  transform: rotate(180deg);
+  position: absolute;
+  top: 42%;
+  right: 10%;
+  width: 12px;
+  height: 20px;
+  z-index: 10;
+  cursor: pointer;
+  color: red;
+
+  @media screen and (min-width: 375px) {
+    width: 47px;
+    height: 79px;
+    top: 42%;
+  }
+}
+
+.Picture_slot {
+display: none;
+
+@media screen and (min-width: 375px) {
+  display: block;
+  position: absolute;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.6%;
+  color: rgba(255, 255, 255, 1);
+  left: 47%;
+  top: 87%;
+
+}
+}

@@ -1,0 +1,63 @@
+.ShortBanner {
+    border-radius: 10px;
+    height: 111px;
+    margin-bottom: 35px;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    @media screen and (min-width: 760px) {
+      height: 223px;
+      border-radius: 25px;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+}
+
+
+.TallBanner {
+    border-radius: 10px;
+    height: 223px;
+    margin-bottom: 35px;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    @media screen and (min-width: 760px) {
+      border-radius: 25px;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+}
+
+.BannerImg {
+    border-radius: 25px;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.BannerSpan {
+  position: absolute;
+  top: 28.04%;
+  left: 5.6%;
+  right: 32.53%;
+  bottom: 80.05%;
+  font-style: Medium;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 100%;
+  color: white;
+  width: 217px;
+  height: 48px;
+
+    @media screen and (min-width: 375px) {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+
+  @media screen and (min-width: 760px) {
+    font-size: 48px;
+  }
+}

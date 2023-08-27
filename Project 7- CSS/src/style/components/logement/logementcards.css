@@ -1,0 +1,134 @@
+.LogementCardContainer {
+color: white;
+flex-direction: column;
+margin-bottom: 20px;
+}
+
+.ProfilContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.Profil {
+margin-left: 6%;
+
+display: flex;
+flex-direction: column;
+width: 85%;
+@media screen  and (min-width: 375px){
+
+  width: 86%;
+}
+
+@media screen  and (min-width: 660px){
+  flex-direction: row;
+  margin-right: 100px;
+}
+
+}
+
+.Logement_title {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: rgba(255, 96, 96, 1);
+}
+
+.Logement_title_name {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.6%;
+  @media screen and (min-width: 375px) {
+    font-size: 36px;
+  }
+}
+
+.Logement_tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.6%;
+  @media screen and (min-width: 375px) {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+}
+
+.Logement_leftside {
+width: 100%;
+@media screen and (min-width: 660px){
+  width: 80%;
+}
+}
+
+.Logement_rightside {
+position: relative;
+margin-top: 16px;
+width: 100%;
+display: flex;
+flex-direction: row-reverse;
+@media screen and (min-width: 660px){
+  margin-top: unset;
+  width: 40%;
+  flex-direction: column;
+}
+}
+
+.LogementHostName {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+.Logement_rating {
+position: absolute;
+left: 0px;
+bottom: 10px;
+@media screen and (min-width: 660px){
+  position: unset;
+  bottom: unset;
+}
+}
+
+.LogementDescriptionContainer {
+  margin-top: 24px;
+  width: 88%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+
+
+  @media screen and (min-width: 700px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.DescriptionLeft {
+
+    margin-right: unset;
+    margin-bottom: 10px;
+    width: 100%;
+  @media screen and (min-width: 700px) {
+    width: 50%;
+    margin-right: 2%;
+    margin-bottom: unset;
+  }
+}
+
+.DescriptionRight {
+    margin: unset;
+    width: 100%;
+  @media screen and (min-width: 700px) {
+    width: 50%;
+    margin-left: 2%;
+  }
+}

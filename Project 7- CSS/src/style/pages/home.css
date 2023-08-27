@@ -1,0 +1,5 @@
+br {
+    @media screen and (min-width: 375px) {
+      display: none;
+    }
+}
